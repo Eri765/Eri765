@@ -1,0 +1,1019 @@
+*{margin: 0px; padding: 0px;}
+#container
+{
+    height: auto;
+    background-color:  rgb(162, 210, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar
+{
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(0, 63, 102);
+    display: flex;
+}
+#navbar a 
+{
+    height: 100%;
+    width: 15%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 10pt;
+}
+#navbar a:hover
+{
+    background-color: rgb(162, 210, 238);
+    color:rgb(10, 84, 97);
+}
+#intestazione
+{
+    height:220px;
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+}
+#img1
+{
+    height: 100%;
+    width: 65%;
+    float: left;
+    display: flex;
+}
+#img2
+{
+    height: 100%;
+    width: 35%;
+    float: left;
+    display: flex;
+}
+#titolo
+{
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20pt;
+    color: rgb(0, 63, 102);
+    display: flex;
+}
+#contattaci
+{
+    height: 40px;
+    width: 180px;
+    background-color: rgb(0, 63, 102);
+    color: white;
+    margin-left: 0%;
+    border: none;
+    border-radius: 5%;
+    position: relative;
+    justify-content: center;
+    top: 5%;
+    left: 32%;
+    font-size: 10pt;
+    padding: 5px;
+    box-shadow: 3px 3px rgb(3, 3, 37);
+    min-width: 40px;
+    min-height: 40px;
+    float:left;
+    display: flex;
+}
+#sconto
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18pt;
+    color:rgb(3, 3, 37);
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 10%;
+    left: 40%;
+}
+#contattaci:hover
+{
+    background-color: rgba(3, 63, 100, 0.823);
+    transition: 0.7s;
+}
+#contenuto1
+    {
+        width:30%;
+        margin-left: 35%;
+        display: flex;
+        clear: both;
+        height: 200px;
+        padding-top: 6%;
+        justify-content: center;
+        text-align: center;
+        font-size: 15pt;
+    }
+    #calendario
+    {
+        background-color: rgb(208, 236, 251);
+        width:98%;
+        height: auto;
+        margin: 1%;
+        clear:left;
+    }
+    #introcal, #introtrac, #introshop, #introexp
+    {
+        width: 100%;
+        height: 24%;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3%;
+    }
+    #giorni
+    {
+        width: 100%;
+        height: 76%;
+        display: grid;
+    }
+    #giorni div 
+    {
+        height: 90%;
+        width: 70%;
+        margin-top: 2%;
+        margin-left: 15%;
+        padding: auto;
+        border-radius: 5%;
+        background-color: rgba(162, 200, 221, 0.925);
+        text-align: center;
+    }
+    #giorni div:hover
+    {
+        height:97%;
+        width:22%;
+        transition: 1.0s;
+    }
+    #giorni img 
+    {
+        width: 100%;
+        height: 50%;
+        border-radius: 5%;
+    }
+    h1 
+    {
+        width: 100%;
+        height: 5%;
+    }
+    h3 
+    {
+        font-style: oblique;
+    }
+    #Tracciato
+    {
+        background-color: rgb(19, 48, 64);
+        color: rgba(255, 255, 255, 0.847);
+        width:98%;
+        height: auto;
+        margin: 1%;
+        clear:left;
+    }
+    #spaziofoto
+    {
+        width: 100%;
+        height: 76%;
+        margin-top: 5%;
+    }
+    .vantaggi
+    {
+        height: 33.3%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 3%;
+        background-color:  rgb(19, 48, 64);
+        color: rgba(255, 255, 255, 0.847);
+    }
+    .vantaggi img 
+    {
+        width:100%;
+        height: 100%;
+        border-radius: 7%;
+    }
+    a:not(#no)
+    {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.847);
+    }
+    #no
+    {
+        color: white;
+        text-decoration: none;
+    }
+    #Shop
+    {
+        background-color: rgb(208, 236, 251);
+        width:98%;
+        height: auto;
+        margin: 1%;
+        clear:left;
+    }
+    #shopseconda
+    {
+        width: 100%;
+        height: 76%;
+        display: grid;
+        margin-top: 5%;
+    }
+    #shop1
+    {
+        width: 100%;
+        height: auto;
+        background-color:rgb(208, 236, 251);
+    }
+    #foto1shop
+    {
+        width: 100%;
+        background-color:rgb(208, 236, 251);
+    }
+    #foto1shop img
+    {
+        height: auto;
+        width: 100%;
+    }
+    #pezzi
+    {
+        width: 96%;
+        padding-bottom: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 12pt;
+        justify-content: center;
+        text-align: center;
+        background-color:rgb(208, 236, 251);
+    }
+    .bottones1
+    {
+        height: 40px;
+        width: 180px;
+        background-color: rgb(0, 63, 102);
+        color: white;
+        margin-left: 4%;
+        border: none;
+        border-radius: 5%;
+        position: relative;
+        top: 5%;
+        left: 30%;
+        font-size: 12pt;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px rgb(3, 3, 37);
+        min-width: 40px;
+        min-height: 40px;
+        float:left;
+        display: flex;
+    }
+    .bottones1:hover
+    {
+        background-color: rgba(0, 0, 0, 0.823);
+        transition: 0.7s;
+    }
+    
+    #shop2
+    {
+        width: 100%;
+        height: auto;
+        clear: auto;
+        background-color:rgb(208, 236, 251);
+        margin-top: 5%;
+    }
+    #magliette
+    {
+        width: 96%;
+        padding-bottom: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 12pt;
+        justify-content: center;
+        text-align: center;
+        background-color:rgb(208, 236, 251);
+    }
+    #foto2shop
+    {
+        width: 100%;
+        background-color:rgb(208, 236, 251);
+    }
+    #foto2shop img
+    {
+        height: auto;
+        width: 100%;
+    }
+    #bottones2
+    {
+        height: 40px;
+        width: 180px;
+        background-color: rgb(0, 63, 102);
+        color: white;
+        margin-left: 4%;
+        border: none;
+        border-radius: 5%;
+        position: relative;
+        top: 5%;
+        left: 30%;
+        font-size: 12pt;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px rgb(3, 3, 37);
+        min-width: 40px;
+        min-height: 40px;
+        float:left;
+        display: flex;
+        margin-bottom: 5%;
+    }
+    #bottones2:hover
+    {
+        background-color: rgba(243, 247, 23, 0.823);
+        transition: 0.7s;
+        color: black;
+    }
+    #spazioform
+    {
+        height: auto;
+        width: 100%;
+        background-color: rgb(19, 48, 64);
+    }
+    #titoloform
+    {
+        height: 10%;
+        background-color: rgb(103, 173, 199);
+        color: black;
+        justify-content: center;
+        text-align: center;
+        font-size: 18pt;
+    }
+    #contattaci1
+    {
+        height: auto;
+        width: 180px;
+        background-color: rgb(96, 143, 172);
+        color: rgb(14, 34, 61);
+        margin-left: 36%;
+        margin-top: 1%;
+        border: none;
+        border-radius: 5%;
+        position: relative;
+        top: 5%;
+        left: 0%;
+        font-size: 12pt;
+        padding: 15px;
+        box-shadow: 3px 3px rgb(3, 3, 37);
+        min-width: 40px;
+        min-height: 40px;
+        justify-content: center;
+        text-align: center;
+        float:left;
+        display: flex;
+    }
+    #contattaci1:hover
+    {
+        background-color: rgba(5, 15, 55, 0.823);
+        transition: 0.7s;
+        color: whitesmoke;
+    }
+    #spazio
+    {
+        width: 100%;
+        height:80px;
+    }
+    #areaform
+    {
+        height: auto;
+        width:100%;
+        align-items: center;
+        background-color: rgb(19, 48, 64);
+    }
+    #form
+    {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 16pt;
+        width: 40%;
+        height:auto;
+        margin-top: 5%;
+        position:relative;
+        top:0%;
+        left:32%;
+        background-color: rgb(205, 236, 255);
+    }
+    #nome, #cognome, #email, #telefono, #feedback
+    {
+        justify-content: center;
+        width: 90%;
+        height: auto;
+    }
+    #privacy
+    {
+        font-size: 15pt;
+        color:rgba(40, 39, 39, 0.849);
+    }
+    #bottone
+    {
+        height: auto;
+        width: 95%;
+        background-color: rgb(96, 143, 172);
+        color: rgb(14, 34, 61);
+        border: none;
+        font-size: 15pt;
+        min-width: 40px;
+        min-height: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+    #bottone:hover
+    {
+        background-color: rgba(133, 255, 102, 0.823);
+        transition: 0.7s;
+        color: black;
+    }
+    #finale
+    {
+        color: white;
+        width: 100%;
+        height:auto;
+        background-color: rgb(19, 48, 64);
+    }
+    #Experience
+    {
+        background-color:rgb(162, 210, 238);;
+        width:98%;
+        height: auto;
+        margin: 1%;
+        clear:left;
+    }
+    #corpoexp
+    {
+        width: 100%;
+        height: 76%;
+        display: flex;
+    }
+    #corpoexp div 
+    {
+        height: 90%;
+        width: 28%;
+        margin-top: 2%;
+        margin-left: 4%;
+        padding: auto;
+        float: left;
+        border-radius: 5%;
+        text-align: center;
+    }
+    #corpoexp div:hover
+    {
+        transition: 1.0s;
+        height: 93%;
+        width: 31%;
+    }
+    #corpoexp img 
+    {
+        width: 100%;
+        height: 50%;
+        border-radius: 5%;
+    }
+    #footer
+    {
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+    .foot
+    {
+        font-size: 9pt;
+        color:rgba(255, 255, 255, 0.718);
+        float:left;
+        width:50%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height:100%;
+    }
+@media only screen and (min-width: 600px) /*pc*/
+{
+    #container
+    {
+        height: auto;
+        background-color: rgb(162, 210, 238);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #navbar
+    {
+        height: 55px;
+        width: 100%;
+        justify-content: space-between;
+        gap: 40px;
+        background-color: rgb(0, 63, 102);
+        display: flex;
+    }
+    #navbar a 
+    {
+        height: 100%;
+        width: 120px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 19pt;
+    }
+    #navbar a:hover
+    {
+        background-color: rgb(162, 210, 238);
+        color:rgb(10, 84, 97);
+    }
+    #intestazione
+    {
+        height:550px;
+        width: 100%;
+        display: flex;
+        background-color: aqua;
+    }
+    #img1
+    {
+        height: 100%;
+        width: 65%;
+        float: left;
+        display: flex;
+    }
+    #img2
+    {
+        height: 100%;
+        width: 35%;
+        float: left;
+        display: flex;
+    }
+    #titolo
+    {
+        height: 80px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 25px;
+        font-size: 23pt;
+        color: rgb(0, 63, 102);
+        display: flex;
+    }
+    #contattaci
+    {
+        height: 60px;
+        width: 250px;
+        background-color: rgb(0, 63, 102);
+        color: white;
+        margin-left: 33%;
+        border: none;
+        border-radius: 5%;
+        position: relative;
+        top: 5%;
+        left: 0%;
+        font-size: 12pt;
+        padding: 15px;
+        box-shadow: 3px 3px rgb(3, 3, 37);
+        min-width: 40px;
+        min-height: 40px;
+        float:left;
+        display: flex;
+    }
+    #sconto
+    {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 18pt;
+        color:rgb(3, 3, 37);
+        width: 220px;
+        height: auto;
+        float: left;
+        margin-top: 2px;
+        margin-left: 60px;
+        display: flex;
+        position: relative;
+        top:0%;
+        left:0%;
+    }
+    #contattaci:hover
+    {
+        background-color: rgba(3, 63, 100, 0.823);
+        transition: 0.7s;
+    }
+    #contenuto1
+    {
+        width:30%;
+        margin-left: 35%;
+        display: flex;
+        clear: both;
+        height: 200px;
+        padding-top: 6%;
+        justify-content: center;
+        text-align: center;
+        font-size: 15pt;
+    }
+    #calendario
+    {
+        background-color: rgb(208, 236, 251);
+        width:98%;
+        height: auto;
+        margin: 1%;
+        clear:left;
+    }
+    #introcal, #introtrac, #introshop, #introexp
+    {
+        width: 100%;
+        height: 24%;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3%;
+    }
+    #giorni
+    {
+        width: 100%;
+        height: 76%;
+        display: flex;
+    }
+    #giorni div 
+    {
+        height: 96%;
+        width: 20%;
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-bottom: 2%;
+        padding: auto;
+        float: left;
+        border-radius: 5%;
+        background-color: rgba(162, 200, 221, 0.925);
+        text-align: center;
+    }
+    #giorni div:hover
+    {
+        height:97%;
+        width:22%;
+        transition: 1.0s;
+    }
+    #giorni img 
+    {
+        width: 100%;
+        height: 50%;
+        border-radius: 5%;
+    }
+    h1 
+    {
+        width: 100%;
+        height: 5%;
+    }
+    h3 
+    {
+        font-style: oblique;
+    }
+    #Tracciato
+    {
+        background-color: rgb(19, 48, 64);
+        color: rgba(255, 255, 255, 0.847);
+        width:98%;
+        height: auto;
+        margin: 1%;
+        clear:left;
+    }
+    #spaziofoto
+    {
+        width: 100%;
+        height: 76%;
+        display: flex;
+        margin-top: 5%;
+        
+    }
+    .vantaggi
+    {
+        height: 100%;
+        width: 33.3%;
+        float: left;
+        padding-bottom:2%;
+        justify-content: center;
+        text-align: center;
+        background-color:  rgb(19, 48, 64);
+        color: rgba(255, 255, 255, 0.847);
+    }
+    .vantaggi img 
+    {
+        width:100%;
+        height: 100%;
+        display: flex;
+        border-radius: 7%;
+    }
+    a:not(#no)
+    {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.847);
+    }
+    #Shop
+    {
+        background-color: rgb(208, 236, 251);
+        width:98%;
+        height: auto;
+        margin: 1%;
+        clear:left;
+    }
+    #shopseconda
+    {
+        width: 100%;
+        height: 76%;
+        display: grid;
+        margin-top: 5%;
+    }
+    #shop1
+    {
+        width: 100%;
+        height: auto;
+        background-color:rgb(208, 236, 251);
+    }
+    #foto1shop
+    {
+        width: 48%;
+        float: right;
+        background-color:rgb(208, 236, 251);
+    }
+    #foto1shop img
+    {
+        height: auto;
+        width: 100%;
+    }
+    #pezzi
+    {
+        width: 46%;
+        float: right;
+        padding-bottom: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 15pt;
+        justify-content: center;
+        text-align: center;
+        background-color:rgb(208, 236, 251);
+    }
+    .bottones1
+    {
+        height: 60px;
+        width: 250px;
+        background-color: rgb(0, 63, 102);
+        color: white;
+        margin-left: 33%;
+        border: none;
+        border-radius: 5%;
+        position: relative;
+        top: 5%;
+        left: 0%;
+        font-size: 12pt;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px rgb(3, 3, 37);
+        min-width: 40px;
+        min-height: 40px;
+        float:left;
+        display: flex;
+    }
+    .bottones1:hover
+    {
+        background-color: rgba(0, 0, 0, 0.823);
+        transition: 0.7s;
+    }
+    
+    #shop2
+    {
+        width: 100%;
+        height: auto;
+        clear: auto;
+        background-color:rgb(208, 236, 251);
+        margin-top: 0%;
+    }
+    #magliette
+    {
+        width: 46%;
+        float: left;
+        padding-bottom: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 15pt;
+        justify-content: center;
+        text-align: center;
+        background-color:rgb(208, 236, 251);
+    }
+    #foto2shop
+    {
+        width: 48%;
+        float: left;
+        background-color:rgb(208, 236, 251);
+    }
+    #foto2shop img
+    {
+        height: auto;
+        width: 100%;
+    }
+    #bottones2
+    {
+        height: 60px;
+        width: 250px;
+        background-color: rgb(0, 63, 102);
+        color: white;
+        margin-left: 33%;
+        border: none;
+        border-radius: 5%;
+        position: relative;
+        top: 5%;
+        left: 0%;
+        font-size: 12pt;
+        justify-content: center;
+        margin-bottom: 0%;
+        align-items: center;
+        box-shadow: 3px 3px rgb(3, 3, 37);
+        min-width: 40px;
+        min-height: 40px;
+        float:left;
+        display: flex;
+    }
+    #no
+    {
+        text-decoration: none;
+        color: white;
+    }
+    #no:hover
+    {
+        background-color: rgba(243, 247, 23, 0.823);
+        transition: 0.7s;
+        color: black;
+    }
+    #spazioform
+    {
+        height: auto;
+        width: 100%;
+        background-color: rgb(19, 48, 64);
+    }
+    #titoloform
+    {
+        height: 10%;
+        background-color: rgb(103, 173, 199);
+        color: black;
+        justify-content: center;
+        text-align: center;
+        font-size: 18pt;
+    }
+    #contattaci1
+    {
+        height: auto;
+        width: 250px;
+        background-color: rgb(96, 143, 172);
+        color: rgb(14, 34, 61);
+        margin-left: 42%;
+        margin-top: 1%;
+        border: none;
+        border-radius: 5%;
+        position: relative;
+        top: 5%;
+        left: 0%;
+        font-size: 15pt;
+        padding: 15px;
+        box-shadow: 3px 3px rgb(3, 3, 37);
+        min-width: 40px;
+        min-height: 40px;
+        justify-content: center;
+        text-align: center;
+        float:left;
+        display: flex;
+    }
+    #contattaci1:hover
+    {
+        background-color: rgba(5, 15, 55, 0.823);
+        transition: 0.7s;
+        color: whitesmoke;
+    }
+    #spazio
+    {
+        width: 100%;
+        height:80px;
+    }
+    #areaform
+    {
+        height: auto;
+        width:100%;
+        align-items: center;
+        background-color: rgb(19, 48, 64);
+    }
+    #form
+    {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 16pt;
+        width: 30%;
+        height:auto;
+        margin-top: 5%;
+        position:relative;
+        top:0%;
+        left:35%;
+        background-color: rgb(205, 236, 255);
+    }
+    #nome, #cognome, #email, #telefono, #feedback
+    {
+        justify-content: center;
+        width: 90%;
+        height: auto;
+    }
+    #privacy
+    {
+        font-size: 15pt;
+        color:rgba(40, 39, 39, 0.849);
+    }
+    #bottone
+    {
+        height: auto;
+        width: 95%;
+        background-color: rgb(96, 143, 172);
+        color: rgb(14, 34, 61);
+        border: none;
+        font-size: 15pt;
+        min-width: 40px;
+        min-height: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+    #bottone:hover
+    {
+        background-color: rgba(133, 255, 102, 0.823);
+        transition: 0.7s;
+        color: black;
+    }
+    #finale
+    {
+        color: white;
+        width: 100%;
+        height:auto;
+        background-color: rgb(19, 48, 64);
+    }
+    #Experience
+    {
+        background-color:rgb(162, 210, 238);;
+        width:98%;
+        height: auto;
+        margin: 1%;
+        clear:left;
+    }
+    #corpoexp
+    {
+        width: 100%;
+        height: 76%;
+        display: flex;
+    }
+    #corpoexp div 
+    {
+        height: 90%;
+        width: 28%;
+        margin-top: 2%;
+        margin-left: 4%;
+        padding: auto;
+        float: left;
+        border-radius: 5%;
+        text-align: center;
+    }
+    #corpoexp div:hover
+    {
+        transition: 1.0s;
+        height: 93%;
+        width: 31%;
+    }
+    #corpoexp img 
+    {
+        width: 100%;
+        height: 50%;
+        border-radius: 5%;
+    }
+    #footer
+    {
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+    .foot
+    {
+        font-size: 9pt;
+        color:rgba(255, 255, 255, 0.718);
+        float:left;
+        width:50%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height:100%;
+    }
+}
